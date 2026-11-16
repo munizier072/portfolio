@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact opnemen met Abdalla Ibrahim</title>
+    <meta name="description" content="Neem contact op met Abdalla Ibrahim, student systeem- en netwerkbeheer, over een stage, een project of een vraag.">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-[#F3D6C7] text-[#38221D]">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col gap-4">
+        <header class="flex flex-wrap items-center justify-between gap-4 sm:flex-col sm:items-stretch lg:grid lg:grid-cols-[1fr_auto_1fr] lg:items-center bg-white rounded-2xl border border-[#38221D]/20 p-4">
+            <a href="index.html" class="flex size-10 items-center justify-center rounded-full border-2 border-[#38221D] text-sm font-bold" aria-label="Abdalla Ibrahim, naar de homepage">AI</a>
+            <input type="checkbox" id="menu-toggle" class="peer sr-only">
+            <label for="menu-toggle" class="sm:hidden cursor-pointer rounded-lg border border-[#38221D]/20 px-3 py-1 text-xl peer-focus-visible:outline-2 peer-focus-visible:outline-[#38221D]"><span aria-hidden="true">&#9776;</span><span class="sr-only">Menu</span></label>
+            <nav aria-label="Hoofdmenu" class="hidden peer-checked:block sm:block w-full lg:w-auto rounded-lg border border-[#38221D]/20 px-2 py-1">
+                <ul class="flex flex-col sm:flex-row sm:gap-2">
+                    <li><a href="index.html" class="block rounded-md px-2 py-1 aria-[current=page]:font-bold aria-[current=page]:underline hover:underline">Home</a></li>
+                    <li><a href="portfolio.html" class="block rounded-md px-2 py-1 aria-[current=page]:font-bold aria-[current=page]:underline hover:underline">Portfolio</a></li>
+                    <li><a href="project.html" class="block rounded-md px-2 py-1 aria-[current=page]:font-bold aria-[current=page]:underline hover:underline">Project</a></li>
+                    <li><a href="contact.html" aria-current="page" class="block rounded-md px-2 py-1 aria-[current=page]:font-bold aria-[current=page]:underline hover:underline">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+            <main class="lg:col-span-2 bg-white rounded-2xl border border-[#38221D]/20 p-4 sm:p-6">
+                <h1 class="text-2xl md:text-4xl font-bold tracking-tight mb-4">Contact</h1>
+                <p class="max-w-2xl leading-relaxed mb-4">Wil je meer weten over mijn opleiding, interesses of projecten? Neem gerust contact met mij op.</p>
+                <form name="contact" method="POST" data-netlify="true" class="flex flex-col gap-4">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label for="naam" class="sr-only">Naam</label>
+                            <input type="text" id="naam" name="naam" placeholder="naam" autocomplete="name" required class="w-full rounded-lg border border-[#38221D]/40 px-3 py-2 placeholder:text-[#38221D]/50 focus-visible:outline-2 focus-visible:outline-[#38221D]">
+                        </div>
+                        <div>
+                            <label for="email" class="sr-only">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="e-mail" autocomplete="email" required class="w-full rounded-lg border border-[#38221D]/40 px-3 py-2 placeholder:text-[#38221D]/50 focus-visible:outline-2 focus-visible:outline-[#38221D]">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="bericht" class="sr-only">Bericht</label>
+                        <textarea id="bericht" name="bericht" rows="5" placeholder="bericht" required class="w-full rounded-lg border border-[#38221D]/40 px-3 py-2 placeholder:text-[#38221D]/50 focus-visible:outline-2 focus-visible:outline-[#38221D]"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="inline-flex items-center gap-2 rounded-full border-2 border-[#38221D] px-4 py-1 hover:bg-[#38221D] hover:text-white">
+                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="size-4"><rect width="20" height="16" x="2" y="4" rx="2" /><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" /></svg>
+                            Versturen
+                        </button>
+                    </div>
+                </form>
+                <p class="mt-4 text-sm">Ik gebruik je naam en e-mailadres alleen om op je bericht te antwoorden en geef ze aan niemand door.</p>
+            </main>
+
+            <aside class="bg-white rounded-2xl border border-[#38221D]/20 p-4 sm:p-6 self-start">
+                <h2 class="font-bold mb-4">Contactgegevens</h2>
+                <ul class="flex flex-col gap-4">
+                    <li class="flex items-center gap-4">
+                        <span class="flex size-10 shrink-0 items-center justify-center rounded-full border border-[#38221D]/40"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="size-5"><rect width="20" height="16" x="2" y="4" rx="2" /><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" /></svg></span>
+                        <span class="text-sm"><a href="mailto:abdallasid8@gmail.com" class="hover:underline">abdallasid8@gmail.com</a></span>
+                    </li>
+                    <li class="flex items-center gap-4">
+                        <span class="flex size-10 shrink-0 items-center justify-center rounded-full border border-[#38221D]/40"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="size-5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z" /></svg></span>
+                        <span class="text-sm"><a href="tel:+32466438245" class="hover:underline">+32 466 43 82 45</a></span>
+                    </li>
+                    <li class="flex items-center gap-4">
+                        <span class="flex size-10 shrink-0 items-center justify-center rounded-full border border-[#38221D]/40"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="size-5"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z" /><circle cx="12" cy="10" r="3" /></svg></span>
+                        <span class="text-sm">Leabudystraat 45 , 2170 Merksem</span>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+
+        <footer class="grid grid-cols-1 sm:grid-cols-3 gap-4 bg-white rounded-2xl border border-[#38221D]/20 p-4 text-sm">
+            <p>Abdalla Ibrahim<br>Systeem- en netwerkbeheer</p>
+            <p>Contact<br><a href="mailto:abdallasid8@gmail.com" class="underline hover:no-underline">abdallasid8@gmail.com</a></p>
+            <p>&copy; 2026 AP<br>Alle rechten voorbehouden</p>
+        </footer>
+    </div>
+</body>
+</html>

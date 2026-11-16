@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project — Abdalla Ibrahim</title>
+    <meta name="description" content="Het doel, de aanpak, de gebruikte technologieën en het resultaat van een project van Abdalla Ibrahim, student aan AP Hogeschool.">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-[#F3D6C7] text-[#38221D]">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col gap-4">
+        <header class="flex flex-wrap items-center justify-between gap-4 sm:flex-col sm:items-stretch lg:grid lg:grid-cols-[1fr_auto_1fr] lg:items-center bg-white rounded-2xl border border-[#38221D]/20 p-4">
+            <a href="index.html" class="flex size-10 items-center justify-center rounded-full border-2 border-[#38221D] text-sm font-bold" aria-label="Abdalla Ibrahim, naar de homepage">AI</a>
+            <input type="checkbox" id="menu-toggle" class="peer sr-only">
+            <label for="menu-toggle" class="sm:hidden cursor-pointer rounded-lg border border-[#38221D]/20 px-3 py-1 text-xl peer-focus-visible:outline-2 peer-focus-visible:outline-[#38221D]"><span aria-hidden="true">&#9776;</span><span class="sr-only">Menu</span></label>
+            <nav aria-label="Hoofdmenu" class="hidden peer-checked:block sm:block w-full lg:w-auto rounded-lg border border-[#38221D]/20 px-2 py-1">
+                <ul class="flex flex-col sm:flex-row sm:gap-2">
+                    <li><a href="index.html" class="block rounded-md px-2 py-1 aria-[current=page]:font-bold aria-[current=page]:underline hover:underline">Home</a></li>
+                    <li><a href="portfolio.html" class="block rounded-md px-2 py-1 aria-[current=page]:font-bold aria-[current=page]:underline hover:underline">Portfolio</a></li>
+                    <li><a href="project.html" aria-current="page" class="block rounded-md px-2 py-1 aria-[current=page]:font-bold aria-[current=page]:underline hover:underline">Project</a></li>
+                    <li><a href="contact.html" class="block rounded-md px-2 py-1 aria-[current=page]:font-bold aria-[current=page]:underline hover:underline">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+            <main class="lg:col-span-2 bg-white rounded-2xl border border-[#38221D]/20 p-4 sm:p-6">
+                <div class="flex flex-col gap-4">
+                    <figure>
+                        <img src="images/sfeerbeeld-2.png" alt="Sfeerbeeld met de tekst Technologie en groei" width="1600" height="900" class="aspect-video w-full rounded-lg object-cover">
+                    </figure>
+                    <h1 class="text-2xl md:text-4xl font-bold tracking-tight">Projecttitel</h1>
+                    <p class="max-w-2xl leading-relaxed">Per project toon ik het doel, mijn aanpak, de gebruikte technologieën, het eindresultaat en wat ik heb geleerd.</p>
+                    <section>
+                        <h2 class="text-xl font-bold mb-2">Doel</h2>
+                        <p class="max-w-2xl leading-relaxed">Hier komt later het doel van dit project.</p>
+                    </section>
+                    <section>
+                        <h2 class="text-xl font-bold mb-2">Aanpak</h2>
+                        <p class="max-w-2xl leading-relaxed">Hier komt later mijn aanpak en wat ik heb geleerd.</p>
+                    </section>
+                </div>
+            </main>
+
+            <aside class="bg-white rounded-2xl border border-[#38221D]/20 p-4 sm:p-6 self-start">
+                <h2 class="font-bold mb-4">Gebruikte technologieën</h2>
+                <ul class="mb-4 space-y-2 text-sm">
+                    <li class="flex items-center gap-2"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="size-5 shrink-0"><path d="M20 6 9 17l-5-5" /></svg> Technologie 1</li>
+                    <li class="flex items-center gap-2"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="size-5 shrink-0"><path d="M20 6 9 17l-5-5" /></svg> Technologie 2</li>
+                    <li class="flex items-center gap-2"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="size-5 shrink-0"><path d="M20 6 9 17l-5-5" /></svg> Technologie 3</li>
+                </ul>
+                <a href="portfolio.html" class="inline-flex items-center gap-2 rounded-full border-2 border-[#38221D] px-4 py-1 hover:bg-[#38221D] hover:text-white">
+                    <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="size-4"><path d="M19 12H5" /><path d="m12 19-7-7 7-7" /></svg>
+                    terug
+                </a>
+            </aside>
+        </div>
+
+        <footer class="grid grid-cols-1 sm:grid-cols-3 gap-4 bg-white rounded-2xl border border-[#38221D]/20 p-4 text-sm">
+            <p>Abdalla Ibrahim<br>Systeem- en netwerkbeheer</p>
+            <p>Contact<br><a href="mailto:abdallasid8@gmail.com" class="underline hover:no-underline">abdallasid8@gmail.com</a></p>
+            <p>&copy; 2026 AP<br>Alle rechten voorbehouden</p>
+        </footer>
+    </div>
+</body>
+</html>
